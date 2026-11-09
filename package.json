@@ -1,0 +1,21 @@
+{
+  "name": "intelligent-crop-disease-diagnosis-system",
+  "version": "2.0.0",
+  "description": "Commercial-grade AI Agriculture Web Application for Crop Identification, Disease Diagnosis, Growth Stage Estimation & Agronomic Management.",
+  "scripts": {
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "backend:dev": "cd backend && uvicorn app.main:app --reload --port 8000"
+  },
+  "keywords": [
+    "agriculture",
+    "crop-disease-detection",
+    "ai",
+    "computer-vision",
+    "fastapi",
+    "react",
+    "precision-farming"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
